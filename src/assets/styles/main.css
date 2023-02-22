@@ -1,0 +1,33 @@
+@import "./base.css";
+@import "./styles.css";
+@import "./normalize.min.css";
+
+:root {
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-navigation-size: 22px;
+}
+
+.fixed-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #a30c33 !important;
+  width: 56px;
+  height: 56px;
+
+  background: #f0f0f0;
+  border-radius: 64.2857px;
+}
+
+.swiper-pagination-bullet {
+}
